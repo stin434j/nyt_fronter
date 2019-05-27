@@ -1,8 +1,10 @@
 body {
     margin: 0;
+    background-color: #FAF7F7;
 
 }
 
+/*LOGIN SIDE */
 
 #splash {
     background-color: #EA5045;
@@ -13,3 +15,385 @@ body {
     height: 34vh;
     background-size: 150px 100px;
 }
+
+
+
+/*Form styling */
+label,
+input[type=email],
+input[type=password] {
+    padding: 1em
+}
+
+
+.input_felter {
+    text-align: center;
+    padding-top: 25vw;
+}
+
+input[type=email],
+input[type=password] {
+    border: 0px;
+    border-radius: 40px;
+    background-color: white;
+    width: 80vw;
+    height: 7vw;
+    margin: 4px;
+    color: #EA5045;
+
+
+}
+
+#knapper_1 .sectionwrapper {
+    margin: 0 30px;
+    padding-top: 28vw;
+
+}
+
+#knapper_1 .continue,
+#knapper_1 .facebook {
+    color: white;
+    background-color: #EA5045;
+    /*    width: 80vw;*/
+    height: 12vw;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 12vw;
+    font-size: 0.8rem;
+
+}
+
+#knapper_1 .facebook {
+    background-color: #FAF7F7;
+    color: #EA5045;
+    border: px solid #EA5045;
+    line-height: 12vw;
+
+    margin-top: 4vw;
+
+}
+
+/*LOGIN SIDE SLUT */
+
+/*Burger menu*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+
+
+section {
+    max-width: 100%;
+    margin: 0px;
+
+}
+
+
+
+
+#nav a {
+    color: white;
+
+
+}
+
+#nav {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #65CDFE;
+    margin-top: 0;
+    margin-bottom: 0vw;
+    padding-top: 2vw;
+    padding-bottom: 0vw;
+
+}
+
+#nav img {
+    width: 8vw;
+}
+
+.logo img {
+    height: 7vw;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #06BFAD;
+}
+
+
+
+#menuToggle {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide */
+    z-index: 2;
+    /* sæt oven på hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+/*
+ * hamburger menu
+ */
+#menuToggle span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    s border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/*
+ * Laver de tre span classes til et kryds
+ *
+ */
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #2477BF;
+
+}
+
+/*
+ * Gemmer den midterste
+ */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+
+
+
+}
+
+
+
+
+/*
+ * Den sidste streg går i den anden retning
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+
+}
+
+/*
+ * absolute positioned
+ * top left
+ * dropdown menu fra burger
+ */
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 0;
+    padding-top: 125px;
+    right: -100px;
+
+    background: rgba(20, 57, 89, 0.83);
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu img {
+    height: 5vw;
+}
+
+#menu2 a {
+    color: white;
+
+
+}
+
+#menu2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: 0;
+    margin-bottom: 0vw;
+    padding-bottom: 2vw;
+
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+/*
+ * Fade in fra venstre
+ */
+#menuToggle input:checked ~ ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+
+}
+
+#menu2 {
+    display: none;
+}
+
+span {
+    background-color: #143959;
+}
+
+#knapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    align-self: flex-end;
+
+}
+
+#knap {
+    margin-left: -0.5vw
+}
+
+
+.logo {
+    background-color: #143F66;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+    #menuToggle {
+        display: none;
+
+    }
+
+
+    #menu {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vw;
+
+    }
+
+    @media only screen and (min-width: 601px) {
+        #flag2 {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-grow: 1;
+            justify-content: flex-start;
+
+        }
+
+        #menu2 a {
+            padding-right: 1vw;
+            padding-left: 1vw;
+        }
+
+        #knapper {
+            justify-content: space-between;
+        }
+    }
+
+    @media only screen and (min-width: 743px) {
+        #engelskpic2 {
+            margin-left: -2vw;
+
+        }
+    }
+
+
+
+    @media only screen and (min-width: 1440px) {
+        #engelskpic2 {
+            margin-left: -3.4vw;
+
+        }
+
+        #nav .kasse1 {
+            background-image: url(billeder/homeprofil.svg);
+            width: 10vw;
+            height: 9vw;
+            background-size: 100%;
+            display: none;
+
+
+        }
+
+        #nav .kasse1 a {
+
+
+            display: flex;
+            justify-content: space-between;
+            padding-top: 2vw;
+        }
+
+    }
