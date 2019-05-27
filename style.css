@@ -1,0 +1,9 @@
+#splash {
+    background-color: #EA5045;
+    background-image: url(billeder/kealogo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 34vh;
+    background-size: 150px 100px;
+}
