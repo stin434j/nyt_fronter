@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+
+}
+
+
 #splash {
     background-color: #EA5045;
     background-image: url(billeder/kealogo.svg);
