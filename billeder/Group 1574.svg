@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="75.826" viewBox="0 0 67 75.826">
+  <g id="Group_1574" data-name="Group 1574" transform="translate(-277 -371)">
+    <text id="Chat" transform="translate(309 444.826)" fill="#f58e81" font-size="12" font-family="Gibson-SemiBold, Gibson" font-weight="600"><tspan x="-12.828" y="0">Chat</tspan></text>
+    <g id="Rectangle_1482" data-name="Rectangle 1482" transform="translate(314 390.295)" fill="none" stroke="#f58e81" stroke-linejoin="round" stroke-width="3">
+      <path d="M12,0h6A12,12,0,0,1,30,12V28a2,2,0,0,1-2,2H12A12,12,0,0,1,0,18V12A12,12,0,0,1,12,0Z" stroke="none"/>
+      <path d="M12,1.5h6A10.5,10.5,0,0,1,28.5,12V28a.5.5,0,0,1-.5.5H12A10.5,10.5,0,0,1,1.5,18V12A10.5,10.5,0,0,1,12,1.5Z" fill="none"/>
+    </g>
+    <g id="Rectangle_1483" data-name="Rectangle 1483" transform="translate(277 371)" fill="none" stroke="#f58e81" stroke-linejoin="round" stroke-width="3">
+      <path d="M12,0h6A12,12,0,0,1,30,12v6A12,12,0,0,1,18,30H1a1,1,0,0,1-1-1V12A12,12,0,0,1,12,0Z" stroke="none"/>
+      <path d="M12,1.5h6A10.5,10.5,0,0,1,28.5,12v6A10.5,10.5,0,0,1,18,28.5H2a.5.5,0,0,1-.5-.5V12A10.5,10.5,0,0,1,12,1.5Z" fill="none"/>
+    </g>
+  </g>
+</svg>
