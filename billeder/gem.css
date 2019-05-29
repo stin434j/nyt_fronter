@@ -1,0 +1,39 @@
+@media only screen and (min-width: 601px) {
+    #menuToggle {
+        display: none;
+
+    }
+
+
+    #menu {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2vw;
+
+    }
+
+    @media only screen and (min-width: 601px) {
+
+        #menu2 a {
+            padding-right: 1vw;
+            padding-left: 1vw;
+        }
+
+        #knapper_1 {
+            justify-content: space-between;
+        }
+    }
