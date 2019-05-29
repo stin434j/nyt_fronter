@@ -100,8 +100,9 @@ input[type=password] {
     /*    width: 80vw;*/
     height: 12vw;
     border-radius: 40px;
-    text-align: center;
-    line-height: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
 
 }
@@ -109,11 +110,18 @@ input[type=password] {
 #knapper_1 .facebook {
     background-color: #FAF7F7;
     color: #EA5045;
-    border: px solid #EA5045;
-    line-height: 12vw;
+    border: 1.2px solid #EA5045;
+
 
     margin-top: 4vw;
 
+}
+
+#knapper_1 .facebook img {
+    width: 6vw;
+    height: 6vw;
+    position: relative;
+    left: -50vw;
 }
 
 /*LOGIN SIDE SLUT */
@@ -219,7 +227,7 @@ a:hover {
     margin-bottom: 5px;
     position: relative;
 
-    s border-radius: 3px;
+    border-radius: 3px;
 
     z-index: 1;
 
@@ -529,8 +537,11 @@ span {
     background-color: white;
     width: 60vw;
     height: 28vw;
-    flex-basis: 2;
     color: #F58E81;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 #raekke2 h2 {
@@ -659,8 +670,11 @@ span {
     background-color: white;
     width: 60vw;
     height: 60vw;
-    flex-basis: 2;
     color: #F58E81;
+    display: flex;
+    font-size: 2.4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 #raekke4 h2 {
@@ -769,7 +783,12 @@ h3 {
     flex-wrap: wrap;
     margin: 10px;
     margin-top: 0;
-    + margin-bottom: 0px;
+    margin-bottom: 0px;
+    width: 90vw;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -782,6 +801,7 @@ h3 {
     margin: 7px;
     margin-left: 0px;
     margin-right: 0px;
+    width: 90vw;
 }
 
 #tideligere_aflevering .boks20,
@@ -789,10 +809,10 @@ h3 {
 #naeste_aflevering .boks20 {
     background-color: #F2F1F0;
 
-    flex-basis: 1;
     flex-grow: 300;
     padding: 2vw;
     padding-bottom: 0vw;
+
 
 
 }
@@ -800,7 +820,35 @@ h3 {
 #tideligere_aflevering .boks20 {
     padding-top: 0vw;
     margin-top: 5vw;
+
 }
+
+#tideligere_aflevering .boks20 .img {
+    width: 12vw;
+    height: 12vw;
+    background-image: url(billeder/up_arrow_small.svg);
+    background-repeat: no-repeat;
+    background-size: 4vw;
+    position: relative;
+    top: -7.6vw;
+    left: 70.9vw;
+
+}
+
+
+
+#tideligere_aflevering .boks30 {
+    background-color: #ffff;
+    flex-grow: 300;
+    padding: 2vw;
+    width: 90vw;
+    padding-bottom: 0vw;
+    padding-top: 0vw;
+
+
+}
+
+
 
 #naeste_aflevering .link_ikon {
     width: 7vw;
@@ -813,11 +861,12 @@ h3 {
 
 
 
+
 }
 
 #upload_aflevering .link_ikon {
-    width: 7vw;
-    height: 7vw;
+    width: 6vw;
+    height: 6vw;
     background-image: url(billeder/afleveringer.svg);
     background-size: 100%;
     background-repeat: no-repeat;
