@@ -8,6 +8,41 @@ img {
     width: 100%;
 }
 
+@font-face {
+    font-family: "arial";
+    src: url("fonts/Arial.woff") format('woff'),
+        url("fonts/Arial.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "arial_bold";
+    src: url("fonts/Arial-Bold_4265.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "gibson";
+    src: url("fonts/Gibson-Regular.woff") format('woff'),
+
+}
+
+@font-face {
+    font-family: "gibson_bold";
+    src: url("fonts/Gibson-SemiBold.woff") format('woff');
+    font-weight: bold;
+}
+
+p {
+    font-family: "arial", sans-serif;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: "gibson_bold", sans-serif
+}
+
 
 /*LOGIN SIDE */
 
@@ -123,7 +158,7 @@ input[type=password] {
     position: absolute;
     width: 120vw;
     height: 15vw;
-    ;
+
     color: white;
     background: #F58E81;
     top: 182vw;
@@ -133,9 +168,6 @@ input[type=password] {
 
 
 
-.logo img {
-    height: 7vw;
-}
 
 
 
@@ -150,7 +182,7 @@ a:hover {
 #menuToggle {
     display: block;
     position: absolute;
-    top: 8.6vw;
+    top: 7.8vw;
     right: 4vw;
 
     z-index: 1;
@@ -182,8 +214,8 @@ a:hover {
  */
 #menuToggle span {
     display: block;
-    width: 30px;
-    height: 4px;
+    width: 24px;
+    height: 3px;
     margin-bottom: 5px;
     position: relative;
 
@@ -212,7 +244,7 @@ a:hover {
  */
 #menuToggle input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(0px, -0px);
     background: white;
 
 }
@@ -345,14 +377,15 @@ span {
 
 .kea img {
     position: absolute;
-    top: 7.6vw;
+    top: 7.9vw;
     right: 35.6vw;
 }
 
 .ikoner img {
     position: absolute;
     right: -32vw;
-    top: 7.6vw;
+    top: 7.9vw;
+
 }
 
 #knap {
@@ -363,12 +396,29 @@ span {
     background-color: #EA5045;
     display: flex;
     justify-content: space-between;
-    height: 23vw;
+    height: 18vw;
+
 }
+
+.logo img {
+    height: 4vw;
+}
+
 
 /*Burger menu og rød kasse færdig*/
 
 /*FORSIDEN*/
+
+/*GENERELT */
+
+#raekke5 p,
+#raekke4 p,
+#raekke3 p,
+#raekke2 p,
+#raekke1 p {
+    font-family: "gibson_bold", sans-serif
+}
+
 
 #raekke1 .sectionwrapper {
     display: flex;
@@ -440,6 +490,7 @@ span {
 }
 
 /*RÆKKE 2 PÅ FORSIDEN */
+
 
 #raekke2 .sectionwrapper {
     display: flex;
